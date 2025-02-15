@@ -155,7 +155,7 @@ class CzechCentralBank implements ImportInterface
                 if ($quantity > 1) {
                     $rate /= $quantity;
                 }
-                $data['CZK'][$currencyCode] = $rate;
+                $data['CZK'][$currencyCode] = 1 / $rate;
             }
         }
 
