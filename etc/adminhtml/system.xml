@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="currency" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+            <tab>general</tab>
+            <resource>Isols_CurrencyRates::config_isols_currencyrates</resource>
+            <group id="czech_central_bank" sortOrder="40" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                <label>Rates from Czech Central Bank</label>
+                <field id="currency_rates_url" type="text" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+                    <label>Currency Rates URL</label>
+                    <comment/>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

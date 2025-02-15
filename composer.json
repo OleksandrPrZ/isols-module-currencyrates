@@ -1,0 +1,22 @@
+{
+    "name": "isols/module-currencyrates",
+    "description": "Import the rates from Czech Central Bank",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Oleksandr Perebykovskyi",
+            "email": "perebykovskyi.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Isols\\CurrencyRates\\": ""
+        }
+    }
+}
